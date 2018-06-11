@@ -32,4 +32,12 @@ describe "Ksuid" do
       end
     end
   end
+
+  describe "parse(UInt128)" do
+    describe "when value is > 1<<96" do
+      it "throws an error" do
+        Ksuid::Ksuid.parse(1.to_u128 << 99)
+      end
+    end
+  end
 end
