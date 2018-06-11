@@ -1,0 +1,24 @@
+name: ksuid
+version: 0.1.0
+license: MIT
+
+authors:
+  - Leo Adamek <ksuid.cr@breakerofthings.email>
+
+description: |
+  A library for generating K-Sortable Unique Identifiers (KSUIDs)
+
+targets:
+  ksuid:
+    main: src/ksuid.cr
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+
